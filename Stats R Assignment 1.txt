@@ -1,0 +1,95 @@
+> morning.section.times =scan()
+1: 39
+2: 35
+3: 39
+4: 39
+5: 40
+6: 37
+7: 41
+8: 39
+9: 42
+10: 40
+11: 37
+12: 35
+13: 38
+14: 36
+15: 40
+16: 35
+17: 38
+18: 36
+19: 39
+20: 35
+21: 38
+22: 35
+23: 39
+24: 38
+25: 41
+26: 39
+27: 38
+28: 40
+29: 38
+30: 41
+31: 41
+32: 37
+33: 34
+34: 41
+35: 37
+36: 41
+37: 35
+38: 39
+39: 36
+40: 41
+41: 
+Read 40 items
+> evening.section.times = scan()
+1: 35
+2: 47
+3: 29
+4: 34
+5: 26
+6: 34
+7: 38
+8: 45
+9: 44
+10: 49
+11: 37
+12: 37
+13: 37
+14: 37
+15: 40
+16: 26
+17: 29
+18: 30
+19: 23
+20: 38
+21: 32
+22: 36
+23: 45
+24: 39
+25: 31
+26: 42
+27: 41
+28: 35
+29: 34
+30: 43
+31: 31
+32: 30
+33: 37
+34: 36
+35: 33
+36: 
+Read 35 items
+> mean(morning.section.times)
+[1] 38.225
+> sd(morning.section.times)
+[1] 2.189573
+> 
+> 
+> 
+> mean(evening.section.times)
+[1] 36
+> sd(evening.section.times)
+[1] 6.164414
+> 
+> boxplot(morning.section.times, evening.section.times, names = c("Morning Section Times (min)", "Evening Section Times (min)"), main = "Boxplots of Morning and Evening Section Commute Times")
+> 
